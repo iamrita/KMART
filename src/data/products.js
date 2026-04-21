@@ -209,15 +209,16 @@ export const promoDeals = [
     title: 'Spring Savings Event',
     subtitle: 'Up to 60% off select home essentials',
     cta: 'Shop Now',
-    bgColor: 'linear-gradient(135deg, #e31837 0%, #ff6b81 100%)',
+    bgColor: 'linear-gradient(135deg, #2e2f33 0%, #171719 100%)',
     icon: '🌸',
+    cardClass: 'promo-card--large-text',
   },
   {
     id: 2,
     title: 'Electronics Blowout',
     subtitle: 'TVs, tablets & more starting at $29.99',
     cta: 'See Deals',
-    bgColor: 'linear-gradient(135deg, #003da5 0%, #4d8de8 100%)',
+    bgColor: 'linear-gradient(135deg, #0054d1 0%, #0066ff 100%)',
     icon: '⚡',
   },
   {
@@ -225,7 +226,7 @@ export const promoDeals = [
     title: 'Free Shipping',
     subtitle: 'On orders over $35 — no code needed',
     cta: 'Start Shopping',
-    bgColor: 'linear-gradient(135deg, #16a34a 0%, #4ade80 100%)',
+    bgColor: 'linear-gradient(135deg, #009938 0%, #00bf40 100%)',
     icon: '🚚',
   },
 ];

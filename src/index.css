@@ -6,27 +6,41 @@
   padding: 0;
 }
 
+/*
+ * Colors mapped from Wanted Design System (Figma).
+ * https://www.figma.com/design/QZKy5BimycK9gD927Ny1GW/Wanted-Design-System
+ * Semantic: Primary Normal / Strong / Heavy, Label Normal, Cool Neutral scale,
+ * Status Positive, Red Orange accent. Legacy --brand-* names kept for components.
+ */
 :root {
-  --brand-red: #e31837;
-  --brand-red-dark: #c0102d;
-  --brand-red-light: #ff4d6a;
-  --brand-blue: #003da5;
-  --brand-blue-light: #1a5cc8;
+  /* Primary (semantic primary normal → strong → heavy) */
+  --brand-red: #0066ff;
+  --brand-red-dark: #0054d1;
+  --brand-red-light: #3385ff;
+  --brand-blue: #005eeb;
+  --brand-blue-light: #0054d1;
   --white: #ffffff;
-  --gray-50: #f9fafb;
-  --gray-100: #f3f4f6;
-  --gray-200: #e5e7eb;
-  --gray-300: #d1d5db;
-  --gray-400: #9ca3af;
-  --gray-500: #6b7280;
-  --gray-600: #4b5563;
-  --gray-700: #374151;
-  --gray-800: #1f2937;
-  --gray-900: #111827;
-  --yellow-400: #facc15;
-  --yellow-500: #eab308;
-  --green-600: #16a34a;
-  --orange-500: #f97316;
+
+  /* Cool neutral ramp (atomic + label roles) */
+  --gray-50: #f7f7f8;
+  --gray-100: #f4f4f5;
+  --gray-200: #e8e8ec;
+  --gray-300: #d1d1d6;
+  --gray-400: #9ca3ad;
+  --gray-500: #70737c;
+  --gray-600: #4a4a52;
+  --gray-700: #2e2f33;
+  --gray-800: #171719;
+  --gray-900: #000000;
+
+  /* Accent & status */
+  --yellow-400: #ffd60a;
+  --yellow-500: #f5a623;
+  --green-600: #00bf40;
+  --orange-500: #ff5e00;
+
+  /* Selection / chip tint (primary @ 8%) */
+  --primary-muted: #eff6ff;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
@@ -40,7 +54,7 @@
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.5;
   color: var(--gray-800);
-  background: var(--gray-50);
+  background: var(--gray-50); /* cool-neutral-99 */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -64,6 +64,23 @@
   background: rgba(255, 255, 255, 0.35);
 }
 
+.promo-card--large-text .promo-icon {
+  font-size: 38px;
+}
+
+.promo-card--large-text .promo-title {
+  font-size: 24px;
+}
+
+.promo-card--large-text .promo-subtitle {
+  font-size: 16px;
+}
+
+.promo-card--large-text .promo-cta {
+  font-size: 16px;
+  padding: 10px 22px;
+}
+
 @media (max-width: 900px) {
   .promo-grid {
     grid-template-columns: 1fr;

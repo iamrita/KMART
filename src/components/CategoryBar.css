@@ -41,7 +41,7 @@
 .category-chip:hover {
   border-color: var(--brand-red);
   color: var(--brand-red);
-  background: #fef2f2;
+  background: var(--primary-muted);
 }
 
 .category-chip.active {

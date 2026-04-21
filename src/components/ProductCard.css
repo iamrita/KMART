@@ -151,7 +151,7 @@
   font-size: 12px;
   font-weight: 600;
   color: var(--green-600);
-  background: #dcfce7;
+  background: rgba(0, 191, 64, 0.12);
   padding: 2px 6px;
   border-radius: 3px;
 }
