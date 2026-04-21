@@ -1,0 +1,77 @@
+.promo-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 24px 0;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.promo-card {
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  color: var(--white);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.promo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.promo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.promo-icon {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.promo-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--white);
+}
+
+.promo-subtitle {
+  font-size: 14px;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+.promo-cta {
+  margin-top: 12px;
+  align-self: flex-start;
+  padding: 8px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: var(--radius-sm);
+  transition: background 0.2s;
+}
+
+.promo-cta:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+@media (max-width: 900px) {
+  .promo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo-section {
+    padding: 16px 16px 0;
+  }
+}
