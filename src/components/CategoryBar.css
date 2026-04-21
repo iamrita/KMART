@@ -39,14 +39,14 @@
 }
 
 .category-chip:hover {
-  border-color: var(--kmart-red);
-  color: var(--kmart-red);
+  border-color: var(--brand-red);
+  color: var(--brand-red);
   background: #fef2f2;
 }
 
 .category-chip.active {
-  background: var(--kmart-red);
-  border-color: var(--kmart-red);
+  background: var(--brand-red);
+  border-color: var(--brand-red);
   color: var(--white);
 }
 

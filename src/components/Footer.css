@@ -24,16 +24,11 @@
   margin-bottom: 8px;
 }
 
-.footer-logo-k {
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--kmart-red);
-}
-
 .footer-logo-text {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--white);
+  letter-spacing: -0.5px;
 }
 
 .footer-tagline {
@@ -62,7 +57,7 @@
 }
 
 .social-link:hover {
-  background: var(--kmart-red);
+  background: var(--brand-red);
   color: var(--white);
 }
 

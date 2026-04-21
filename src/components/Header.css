@@ -7,7 +7,7 @@
 }
 
 .header-top {
-  background: var(--kmart-red);
+  background: var(--brand-red);
   padding: 12px 0;
 }
 
@@ -32,18 +32,12 @@
   user-select: none;
 }
 
-.logo-k {
-  font-size: 36px;
-  font-weight: 800;
-  color: var(--white);
-  line-height: 1;
-}
-
 .logo-text {
   font-size: 28px;
   font-weight: 700;
   color: var(--white);
   line-height: 1;
+  letter-spacing: -0.5px;
 }
 
 .search-bar {
@@ -71,7 +65,7 @@
 
 .search-btn {
   padding: 10px 16px;
-  background: var(--kmart-blue);
+  background: var(--brand-blue);
   color: var(--white);
   display: flex;
   align-items: center;
@@ -80,7 +74,7 @@
 }
 
 .search-btn:hover {
-  background: var(--kmart-blue-light);
+  background: var(--brand-blue-light);
 }
 
 .header-right {
@@ -151,12 +145,12 @@
 }
 
 .nav-link:hover {
-  color: var(--kmart-red);
+  color: var(--brand-red);
 }
 
 .nav-link.active {
-  color: var(--kmart-red);
-  border-bottom-color: var(--kmart-red);
+  color: var(--brand-red);
+  border-bottom-color: var(--brand-red);
   font-weight: 600;
 }
 

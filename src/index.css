@@ -7,11 +7,11 @@
 }
 
 :root {
-  --kmart-red: #e31837;
-  --kmart-red-dark: #c0102d;
-  --kmart-red-light: #ff4d6a;
-  --kmart-blue: #003da5;
-  --kmart-blue-light: #1a5cc8;
+  --brand-red: #e31837;
+  --brand-red-dark: #c0102d;
+  --brand-red-light: #ff4d6a;
+  --brand-blue: #003da5;
+  --brand-blue-light: #1a5cc8;
   --white: #ffffff;
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;

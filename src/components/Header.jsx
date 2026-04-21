@@ -15,15 +15,14 @@ export default function Header({ cartCount, onSearch }) {
         <div className="header-inner">
           <div className="header-left">
             <a href="/" className="logo">
-              <span className="logo-k">K</span>
-              <span className="logo-text">mart</span>
+              <span className="logo-text">Catalog</span>
             </a>
           </div>
 
           <form className="search-bar" onSubmit={handleSubmit}>
             <input
               type="text"
-              placeholder="Search everything at Kmart..."
+              placeholder="Search products..."
               value={query}
               onChange={(e) => {
                 setQuery(e.target.value);

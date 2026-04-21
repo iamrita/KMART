@@ -7,10 +7,9 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-col">
             <div className="footer-logo">
-              <span className="footer-logo-k">K</span>
-              <span className="footer-logo-text">mart</span>
+              <span className="footer-logo-text">Catalog</span>
             </div>
-            <p className="footer-tagline">Expect More. Pay Less.</p>
+            <p className="footer-tagline">Shop Everything for Less.</p>
             <div className="footer-social">
               <a href="#" aria-label="Facebook" className="social-link">f</a>
               <a href="#" aria-label="Twitter" className="social-link">𝕏</a>
@@ -30,7 +29,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>About Kmart</h4>
+            <h4>About Catalog</h4>
             <ul>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Careers</a></li>
@@ -43,17 +42,17 @@ export default function Footer() {
           <div className="footer-col">
             <h4>More Ways to Shop</h4>
             <ul>
-              <li><a href="#">Kmart App</a></li>
+              <li><a href="#">Catalog App</a></li>
               <li><a href="#">Gift Cards</a></li>
               <li><a href="#">Weekly Ad</a></li>
-              <li><a href="#">Kmart Rewards</a></li>
+              <li><a href="#">Rewards</a></li>
               <li><a href="#">Layaway</a></li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2026 Kmart. All rights reserved. This is a demo website.</p>
+          <p>&copy; 2026 Catalog. All rights reserved. This is a demo website.</p>
           <div className="footer-links">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>

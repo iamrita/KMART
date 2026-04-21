@@ -44,7 +44,7 @@
 }
 
 .product-badge.best-seller {
-  background: var(--kmart-red);
+  background: var(--brand-red);
   color: var(--white);
 }
 
@@ -138,7 +138,7 @@
 .current-price {
   font-size: 22px;
   font-weight: 700;
-  color: var(--kmart-red);
+  color: var(--brand-red);
 }
 
 .original-price {
@@ -160,7 +160,7 @@
   margin-top: 8px;
   width: 100%;
   padding: 10px;
-  background: var(--kmart-blue);
+  background: var(--brand-blue);
   color: var(--white);
   font-size: 14px;
   font-weight: 600;
@@ -169,7 +169,7 @@
 }
 
 .add-to-cart-btn:hover:not(:disabled) {
-  background: var(--kmart-blue-light);
+  background: var(--brand-blue-light);
 }
 
 .add-to-cart-btn:disabled {
